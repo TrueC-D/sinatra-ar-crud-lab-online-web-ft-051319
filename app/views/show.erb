@@ -2,6 +2,6 @@
 
 <p><%=@article.content%></p>
 
-<form action= '' method= 'post'>
-  <input type= 'delete'
+<form action= '/articles/<%=@article.id%>' method= 'post'>
+  <input type= 'submit' value= 'delete'>
 </form>
